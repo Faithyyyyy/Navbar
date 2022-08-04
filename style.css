@@ -40,6 +40,16 @@ a {
     width: 7rem;
     height: 7rem;
   }
+  .logo-container{
+    position: relative;
+  }
+  .top-image{
+    position:  absolute;
+    opacity: 0;
+  }
+  .top-image:hover{
+    opacity: 1;
+  }
   .nav-container{
     padding-inline: 3rem;
   }

@@ -5,10 +5,8 @@ colorSwitch.addEventListener('click', checkMode);
 function checkMode() {
     console.log('checking')
     if(colorSwitch.checked){
-        console.log('dark mode on babby')
         darkModeOn()
     }else{
-        console.log('dark mode off boo')
         darkModeOff()
     }
 }
@@ -19,7 +17,7 @@ function darkModeOn(){
 function darkModeOff(){
     document.body.classList.remove("dark-mode")
 }
-
+//logo
 
 //Navbar
 
